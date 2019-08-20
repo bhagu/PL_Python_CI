@@ -6,5 +6,4 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - export PYTHONPATH=$PYTHONPATH:$(pwd)
-  - python app/tests/app-test.py
+  - python test.py
